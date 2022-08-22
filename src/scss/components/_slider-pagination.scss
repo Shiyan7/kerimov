@@ -1,28 +1,6 @@
 .slider-pagination {
-  position: absolute;
-  z-index: 2;
-  left: 50%;
-  bottom: 98px;
-  transform: translateX(-50%);
   display: flex;
   align-items: center;
-
-  @media (max-width: 1024px) {
-    left: auto;
-    right: 30px;
-    transform: translateX(-0%);
-  }
-
-  @media (max-width: 576px) {
-    right: auto;
-    left: 50%;
-    bottom: 65px;
-    transform: translateX(-50%);
-  }
-
-  @media (max-width: 576px) {
-
-  }
 
   .swiper-pagination-bullet {
     display: block;

@@ -4,16 +4,16 @@
 @include('partials/head.html')
 
 <body class="page__body">
+  <div class="site-container">
     @include('partials/header.html')
-    <div class="slides">
-      <main class="main">
-        @include('partials/hero.html')
-        @include('partials/architecture.html')
-        @include('partials/interiors.html')
-        @include('partials/art.html')
-      </main>
-      @include('partials/footer.html')
-    </div>
+    <main class="main">
+      @include('partials/hero.html')
+      @include('partials/architecture.html')
+      @include('partials/interiors.html')
+      @include('partials/art.html')
+    </main>
+    @include('partials/footer.html')
+  </div>
 </body>
 
 </html>
