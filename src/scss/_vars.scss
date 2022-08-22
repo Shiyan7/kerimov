@@ -1,0 +1,16 @@
+:root {
+  // base
+  --font-family: "Montserrat", sans-serif;
+  --min-width: 320px;
+
+  // colors
+  --color-white: 255,255,255;
+  --color-black: #000;
+  --color-gray: #3d3b38;
+  --color-dark: #1c1c1c;
+}
+
+.dark-mode {
+  --color-white: 0,0,0;
+  --color-gray: #fff;
+}

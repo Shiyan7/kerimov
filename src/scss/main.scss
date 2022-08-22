@@ -1,0 +1,19 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// components
+@import "./components/g-social";
+@import "./components/slide";
+@import "./components/slider-pagination";
+@import "./components/switcher";
+@import "./components/g-burger";
+@import "./components/scroll-down";
+@import "./components/slider-nav";
+
+// modules
+@import "./modules/header";
+@import "./modules/nav";
+@import "./modules/menu";
