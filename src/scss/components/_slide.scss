@@ -1,11 +1,11 @@
 .slide {
   position: relative;
-  height: var(--vh, 100vh);
+  height: 100vh;
   scroll-snap-align: start;
   scroll-snap-stop: always;
 
   &__item {
-    height: var(--vh, 100vh);
+    height: 100vh;
   }
 
   &__image {
