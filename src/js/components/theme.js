@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
   new Darken({
     toggle: ".toggle-theme",
     class: 'dark-mode',
-    /* usePrefersColorScheme: false,
+    usePrefersColorScheme: false,
     timestamps: {
       dark: "20:00",
       light: "6:00",
-    } */
+    }
   });
 
   const check = () => {

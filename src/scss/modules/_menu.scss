@@ -1,15 +1,19 @@
+.dark-mode .menu {
+  background-color: rgba(#000, 0.94);
+}
+
 .menu {
   position: absolute;
   z-index: 150;
   top: 0;
   left: 0;
   width: 100%;
-  height: var(--vh);
+  height: var(--vh, 100vh);
   opacity: 0;
   visibility: hidden;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: rgba(var(--color-white), 0.9);
+  background-color: rgba(#fff, 0.95);
   transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
 
   @media (min-width: 1025px) {

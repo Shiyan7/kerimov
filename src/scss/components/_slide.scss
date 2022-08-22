@@ -1,9 +1,11 @@
 .slide {
   position: relative;
-  height: 100vh;
+  height: var(--vh, 100vh);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 
   &__item {
-    height: 100vh;
+    height: var(--vh, 100vh);
   }
 
   &__image {
@@ -21,7 +23,7 @@
   &__content {
     position: absolute;
     z-index: 3;
-    bottom: 95px;
+    bottom: 90px;
     left: 0;
     right: 0;
     padding: 0 100px;
@@ -41,6 +43,7 @@
     }
 
     &--offset {
+      bottom: 95px;
 
       @media (max-width: 768px) {
         bottom: 95px;
@@ -54,11 +57,11 @@
 
   &__title {
     margin: 0;
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    line-height: 25.6px;
+    line-height: 38.26px;
     color: #fff;
     margin-bottom: 21px;
 
