@@ -3,7 +3,7 @@
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   z-index: 150;
   top: 0;
   left: 0;
@@ -63,7 +63,7 @@
   }
 
   &-dropdown {
-    margin-top: 18px;
+    margin-top: 20px;
     padding-left: 45px;
 
     &__item {
