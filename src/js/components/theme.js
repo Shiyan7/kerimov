@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const check = () => {
 
     toggleThemeBtns.forEach(el => {
-      darken.dark ? el.textContent = 'Dark mode' : el.textContent = 'Light mode'
+      darken.dark ? el.textContent = 'Light mode' : el.textContent = 'Dark mode'
     })
   }
 

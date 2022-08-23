@@ -3,6 +3,7 @@
   font-weight: 400;
   color: var(--color-gray);
   text-transform: uppercase;
+  transition: color 0.3s;
 
   &--sm {
     font-size: 28px;
