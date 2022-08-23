@@ -1,7 +1,7 @@
 import Swiper, { Pagination, Navigation, Autoplay, EffectFade } from 'swiper'
 
 document.addEventListener('DOMContentLoaded', () => {
-  new Swiper('.slide-slider', {
+  new Swiper('.hero-slider', {
     modules: [Pagination, Autoplay, EffectFade, Navigation],
     slidesPerView: 'auto',
     autoplay: {
@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
       crossFade: true
     },
     pagination: {
-      el: '.slide-slider__pag',
+      el: '.hero-slider__pag',
       clickable: true,
       type: 'bullets',
     },
     navigation: {
-      prevEl: '.slide-slider__btn--prev',
-      nextEl: '.slide-slider__btn--next',
+      prevEl: '.hero-slider__btn--prev',
+      nextEl: '.hero-slider__btn--next',
     }
   })
 })

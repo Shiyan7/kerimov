@@ -100,3 +100,12 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.fullpage {
+  scroll-snap-destination: 0 0;
+  display: block;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}

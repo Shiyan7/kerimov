@@ -1,3 +1,2 @@
-import './components/slide-slider'
+import './components/hero-slider'
 import './components/theme'
-import './components/anchor-link'
