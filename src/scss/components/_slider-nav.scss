@@ -10,7 +10,7 @@
 
     @media (max-width: 576px) {
       width: 30px;
-      height: 30px;
+      height: 42px;
     }
 
     &.swiper-button-disabled {
@@ -28,7 +28,7 @@
     &:after {
       content: "";
       position: absolute;
-      left: 0;
+      left: 5px;
       width: 42px;
       height: 3px;
       transform: translate(-5px, -14px) rotate(-45deg);
@@ -44,7 +44,7 @@
     &:before {
       content: "";
       position: absolute;
-      left: 0;
+      left: 5px;
       width: 42px;
       height: 3px;
       transform: translate(-5px, 14px) rotate(45deg);
@@ -73,6 +73,7 @@
 
     &--prev {
       left: 100px;
+      padding-left: 5px;
       transform: translateY(-50%) rotate(360deg);
 
       @media (max-width: 1720px) {
@@ -82,6 +83,7 @@
 
     &--next {
       right: 100px;
+      padding-right: 5px;
       transform: translateY(-50%) rotate(180deg);
 
       @media (max-width: 1720px) {

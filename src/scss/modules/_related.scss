@@ -1,5 +1,5 @@
 .related {
-  min-height: 100vh;
+  min-height: var(--vh, 100vh);
   scroll-snap-align: start;
   scroll-snap-stop: always;
 
@@ -8,6 +8,10 @@
     display: grid;
     grid-template-rows: auto 1fr;
     min-height: inherit;
+
+    @media (max-width: 576px) {
+      padding-top: 60px;
+    }
   }
 
   &__title {

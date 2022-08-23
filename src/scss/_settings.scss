@@ -107,7 +107,7 @@ a {
   z-index: 200;
   scroll-snap-destination: 0 0;
   display: block;
-  height: 100vh;
+  height: var(--vh, 100vh);
   overflow-y: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: y proximity;

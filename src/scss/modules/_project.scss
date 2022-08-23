@@ -7,7 +7,7 @@
     @media (min-width: 1025px) {
       scroll-snap-align: start;
       scroll-snap-stop: always;
-      min-height: 100vh;
+      min-height: var(--vh, 100vh);
     }
 
     @media (max-width: 1024px) {
@@ -26,14 +26,14 @@
       @media (max-width: 1024px) {
         width: 100%;
         padding: 70px 30px;
-        min-height: 100vh;
+        min-height: var(--vh, 100vh);
         scroll-snap-align: start;
         scroll-snap-stop: always;
       }
 
       @media (max-width: 576px) {
         text-align: center;
-        padding: 30px;
+        padding: 50px 30px;
       }
     }
 
@@ -163,7 +163,7 @@
     @media (min-width: 1025px) {
       scroll-snap-align: start;
       scroll-snap-stop: always;
-      height: 100vh;
+      height: var(--vh, 100vh);
     }
 
     &:not(.project-slide--full) {
@@ -175,7 +175,7 @@
     &--full {
       scroll-snap-align: start;
       scroll-snap-stop: always;
-      height: 100vh;
+      height: var(--vh, 100vh);
     }
 
     &:before {
@@ -207,7 +207,7 @@
     display: flex;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    height: 100vh;
+    height: var(--vh, 100vh);
 
     &--three {
       .project-slides__slide {
