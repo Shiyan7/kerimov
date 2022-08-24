@@ -14,13 +14,6 @@
   box-shadow: none !important;
 }
 
-.fancybox__slide {
-  @media (max-width: 1024px) {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
 .fancybox__carousel .fancybox__nav button.carousel__button {
   box-shadow: none;
   display: inline-block;
