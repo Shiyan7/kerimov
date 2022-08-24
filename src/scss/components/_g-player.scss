@@ -23,6 +23,11 @@
     width: 120px;
     height: 120px;
 
+    @media (max-width: 576px) {
+      width: 100px;
+      height: 100px;
+    }
+
     &:hover {
       svg {
         stroke: #fff;
@@ -46,6 +51,14 @@
     bottom: 100px;
     display: flex;
     align-items: center;
+
+    @media (max-width: 1720px) {
+      left: 30px;
+    }
+
+    @media (max-width: 576px) {
+      bottom: 70px;
+    }
   }
 
   &__btn {
