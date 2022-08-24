@@ -6,6 +6,10 @@
   &__container {
     padding-top: 70px;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: inherit;
 
     @media (max-width: 1024px) {
       padding: 70px 15px 50px;
@@ -46,6 +50,18 @@
     &__pag {
       justify-content: center;
       margin-top: 34px;
+
+      .swiper-pagination-bullet {
+        background-color: #cdcdcd;
+
+        &:hover {
+          background-color: #8f8f8f;
+        }
+
+        &-active {
+          background-color: #8f8f8f;
+        }
+      }
 
       @media (min-width: 577px) {
         display: none;
