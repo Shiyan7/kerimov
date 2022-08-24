@@ -1,0 +1,30 @@
+<section class="about-video">
+  <div class="g-player">
+    <video id="video" src="about.mp4" class="g-player__video" poster="img/villa.jpg"></video>
+    <button class="btn-reset g-player__play" id="play-video">
+      <svg>
+        <use xlink:href="img/sprite.svg#play"></use>
+      </svg>
+    </button>
+    <div class="g-player__controls">
+      <button class="btn-reset g-player__btn" id="stop-video">
+        <svg>
+          <use xlink:href="img/sprite.svg#pause"></use>
+        </svg>
+      </button>
+      <button class="btn-reset g-player__btn" id="mute-video">
+        <svg>
+          <use xlink:href="img/sprite.svg#volume"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="switcher">
+    <div class="switcher-lang">
+      <a href="#" class="switcher-lang__link">Rus</a>
+      <a class="switcher-lang__link switcher-lang__link--current">Eng</a>
+    </div>
+    <button class="btn-reset toggle-theme">Light mode</button>
+  </div>
+  <span class="scroll-down"></span>
+</section>

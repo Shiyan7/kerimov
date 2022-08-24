@@ -3,7 +3,7 @@
   scroll-snap-align: start;
   scroll-snap-stop: always;
   background-color: var(--color-white);
-  transition: backgroud-color 0.3s;
+  transition: background-color 0.3s;
 
   &__container {
     position: relative;
@@ -27,7 +27,7 @@
       width: 3px;
       height: 42px;
       background-color: var(--color-gray);
-      transition: backgroud-color 0.3s;
+      transition: background-color 0.3s;
 
       @media (max-width: 1720px) {
         right: 30px;

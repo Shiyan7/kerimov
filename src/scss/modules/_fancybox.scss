@@ -2,12 +2,23 @@
   background: rgba(#3D3B38, 0.85);
 }
 
+.fancybox__toolbar {
+  padding: 50px 13px;
+}
+
 .fancybox__progress {
   height: 2px;
 }
 
 .carousel__button {
   box-shadow: none !important;
+}
+
+.fancybox__slide {
+  @media (max-width: 1024px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .fancybox__carousel .fancybox__nav button.carousel__button {
