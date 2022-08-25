@@ -6,6 +6,7 @@
   // colors
   --color-white: #fff;
   --color-black: #000;
+  --color-light-gray: #8f8f8f;
   --color-gray: #3d3b38;
   --color-dark: #1c1c1c;
   --fancybox-accent-color: #fff;
@@ -14,5 +15,6 @@
 .dark-mode {
   --color-white: #1c1c1c;
   --color-gray: #fff;
+  --color-light-gray: #fff;
   --color-dark: #fff;
 }

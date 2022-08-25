@@ -60,7 +60,7 @@
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: var(--color-gray);
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       transition: color 0.3s;
 
       @media (max-width: 576px) {
@@ -94,6 +94,9 @@
     }
 
     &__slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: calc(20% - 70px);
       padding: 0 35px;
 
@@ -118,8 +121,11 @@
       width: 100%;
       height: auto;
       object-fit: cover;
-      fill: var(--color-gray);
-      transition: fill 0.3s;
+      transition: filter 0.3s;
     }
   }
+}
+
+.dark-mode .recognition-slider__image {
+  filter: invert(100%);
 }
