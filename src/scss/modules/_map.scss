@@ -71,6 +71,13 @@
     position: absolute;
     cursor: pointer;
 
+    &:hover {
+      .map-point__content {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
     &__content {
       position: absolute;
       z-index: 2;
@@ -80,23 +87,21 @@
 
       &.bottom-right {
         right: 20px;
-        bottom: 26px;
+        bottom: 0;
+        padding-bottom: 26px;
       }
 
       &.bottom-left {
         left: 0px;
-        bottom: 30px;
+        bottom: 0;
+        padding-bottom: 30px;
       }
 
       &.bottom-center {
-        bottom: 30px;
+        padding-bottom: 30px;
         left: 50%;
+        bottom: 0;
         transform: translateX(-50%);
-      }
-
-      &.active {
-        opacity: 1;
-        visibility: visible;
       }
     }
 
@@ -152,6 +157,7 @@
     }
 
     &__title {
+      display: inline-block;
       margin: 0;
       font-weight: 600;
       position: absolute;
@@ -164,6 +170,7 @@
       color: #fff;
       text-transform: uppercase;
       letter-spacing: 0.285em;
+      @include hover;
     }
   }
 }
