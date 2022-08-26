@@ -74,6 +74,7 @@
 
   &-point {
     position: absolute;
+    cursor: pointer;
 
     &:hover {
       .map-point__content {
@@ -90,9 +91,8 @@
       transition: opacity 0.3s, visibility 0.3s;
 
       &.bottom-right {
-        right: 0;
+        right: 20px;
         bottom: 0;
-        padding-right: 20px;
         padding-bottom: 26px;
       }
 
@@ -111,8 +111,6 @@
     }
 
     &__icon {
-      position: relative;
-      z-index: 3;
       display: block;
       width: 24px;
       height: 26px;
