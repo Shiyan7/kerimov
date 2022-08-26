@@ -75,6 +75,7 @@
     }
 
     &__right {
+      display: block;
       width: 47%;
       flex-shrink: 0;
 
@@ -158,6 +159,7 @@
   }
 
   &-slide {
+    display: block;
     position: relative;
 
     @media (min-width: 1025px) {
@@ -212,6 +214,7 @@
     }
 
     &__slide {
+      display: block;
       position: relative;
       width: 100%;
       height: 100%;
