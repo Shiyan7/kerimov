@@ -94,8 +94,18 @@
     }
 
     &__slide {
+      display: block;
       width: calc(20% - 70px);
       padding: 0 35px;
+
+      &--hover {
+        filter: grayscale(100%);
+        transition: filter 0.3s;
+
+        &:hover {
+          filter: grayscale(0%);
+        }
+      }
 
       @media (max-width: 1024px) {
         width: calc(33.33333% - 50px);
