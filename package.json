@@ -60,6 +60,7 @@
     "@fancyapps/ui": "^4.0.31",
     "@popperjs/core": "^2.11.2",
     "aos": "^2.3.4",
+    "fullpage.js": "^4.0.10",
     "gh-pages": "^4.0.0",
     "graph-modal": "^1.0.4",
     "graph-tabs": "^1.0.0",

@@ -1,8 +1,5 @@
 .slide {
   position: relative;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-  height: var(--vh, 100vh);
 
   &__image {
     position: absolute;

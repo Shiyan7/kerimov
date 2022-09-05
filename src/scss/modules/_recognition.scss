@@ -1,7 +1,4 @@
 .recognition {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-  min-height: var(--vh, 100vh);
 
   &__container {
     padding-top: 45px;

@@ -1,7 +1,4 @@
 .related {
-  min-height: var(--vh, 100vh);
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
 
   &__container {
     padding-top: 90px;

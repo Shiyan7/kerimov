@@ -1,7 +1,4 @@
 .map {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-  min-height: var(--vh, 100vh);
 
   &__container {
     display: flex;
@@ -17,7 +14,8 @@
     }
 
     @media (max-width: 768px) {
-      padding: 50px 0;
+      padding: 0;
+      padding-top: 50px;
     }
   }
 

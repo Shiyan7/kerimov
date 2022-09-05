@@ -1,7 +1,5 @@
 .footer {
   min-height: var(--vh, 100vh);
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
   background-color: var(--color-white);
   transition: background-color 0.3s;
 

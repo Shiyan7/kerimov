@@ -1,15 +1,10 @@
 .about-video {
   position: relative;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-  height: var(--vh, 100vh);
 }
 
 .about-text {
 
   @media (min-width: 1025px) {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
     min-height: var(--vh, 100vh);
   }
 
@@ -33,8 +28,6 @@
     margin-bottom: 50px;
 
     @media (max-width: 1024px) {
-      scroll-snap-align: start;
-      scroll-snap-stop: always;
       min-height: var(--vh, 100vh);
       padding-top: 50px;
       padding-bottom: 50px;
@@ -130,6 +123,7 @@
 
   &__cols {
     display: none;
+    transform: scale(0);
     justify-content: space-between;
     margin-bottom: 60px;
     margin: 0 auto 60px;
@@ -144,6 +138,7 @@
 
     &.active {
       display: flex;
+      animation: .2s linear 0s forwards show;
     }
   }
 
@@ -195,8 +190,6 @@
 
   @media (max-width: 1024px) {
     flex-direction: column;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
     min-height: var(--vh, 100vh);
     padding-top: 80px;
     padding-bottom: 80px;
@@ -253,5 +246,11 @@
       font-size: 16px;
       line-height: 27.63px;
     }
+  }
+}
+
+@keyframes show {
+  to {
+    transform: scale(1);
   }
 }

@@ -102,13 +102,10 @@ a {
   position: relative;
 }
 
-.fullpage {
-  position: relative;
-  z-index: 200;
-  scroll-snap-destination: 0 0;
-  display: block;
-  height: var(--vh, 100vh);
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
+.fp-watermark {
+  display: none;
+}
+
+.fp-scroll-mac .fp-overflow::-webkit-scrollbar {
+  display: none;
 }
