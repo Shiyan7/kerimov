@@ -4,7 +4,7 @@
     padding-top: 90px;
     display: grid;
     grid-template-rows: auto 1fr;
-    min-height: inherit;
+    min-height: 100vh;
 
     @media (max-width: 576px) {
       padding-top: 60px;
