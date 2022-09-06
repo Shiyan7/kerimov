@@ -211,8 +211,8 @@
   &__desc {
     margin: 0;
     max-width: 829px;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 17px;
     color: inherit;
     letter-spacing: 0.245em;
     grid-column: 2 span;
@@ -250,8 +250,8 @@
 
     &__link {
       display: inline-block;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 14px;
+      line-height: 17px;
       color: inherit;
       letter-spacing: 0.245em;
       @include hover;
@@ -267,7 +267,7 @@
       }
 
       &:not(:last-child) {
-        margin-right: 20px;
+        margin-right: 40px;
 
         @media (max-width: 576px) {
           margin-right: 0;
@@ -278,8 +278,8 @@
 
   &__copy {
     text-transform: uppercase;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 17px;
     color: inherit;
     letter-spacing: 0.245em;
 
