@@ -11,7 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   scrollToTop?.addEventListener('click', () => {
     fullpage.moveTo()
-
-    console.log(fullpage);
   })
 });
