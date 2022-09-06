@@ -1,8 +1,17 @@
-import fullpage from 'fullpage.js'
+import Fullpage from 'fullpage.js'
 
 document.addEventListener('DOMContentLoaded', () => {
-  new fullpage('#fullpage', {
+
+  const scrollToTop = document.querySelector('.footer__scroll-top')
+
+  const fullpage = new Fullpage('#fullpage', {
 	  slideSelector: '.fullpage-slide',
-    normalScrollElements: '.menu'
+    normalScrollElements: '.menu',
+  })
+
+  scrollToTop?.addEventListener('click', () => {
+    fullpage.moveTo()
+
+    console.log(fullpage);
   })
 });
