@@ -62,9 +62,9 @@
 
   &__caption {
     display: inline-block;
-    font-size: 16px;
+    font-size: 8px;
     font-weight: 500;
-    line-height: 21px;
+    line-height: 10px;
     letter-spacing: 0.21em;
     text-transform: uppercase;
     color: #fff;
@@ -79,11 +79,11 @@
 
   &__title {
     margin: 0;
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 20px;
     font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    line-height: 38.26px;
     color: #fff;
 
     @media (max-width: 576px) {
@@ -95,8 +95,8 @@
 
   &__desc {
     margin: 0;
-    font-size: 18px;
-    line-height: 31px;
+    font-size: 10px;
+    line-height: 12px;
     font-weight: 500;
     color: #fff;
     letter-spacing: 0.05em;
@@ -109,11 +109,11 @@
 
   &__link {
     display: inline-block;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    line-height: 22px;
+    line-height: 12px;
     color: #fff;
     text-decoration: underline;
     text-decoration-skip: ink;

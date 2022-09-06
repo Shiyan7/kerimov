@@ -50,6 +50,8 @@
   }
 
   &__title {
+    font-size: 24px;
+    line-height: 30px;
     margin-bottom: 132px;
 
     @media (max-width: 576px) {
@@ -84,9 +86,9 @@
       display: block;
       margin: 0;
       font-weight: 600;
-      font-size: 24px;
-      line-height: 32px;
-      margin-bottom: 7px;
+      font-size: 18px;
+      line-height: 41px;
+      margin-bottom: 14px;
       color: var(--color-gray);
       transition: color 0.3s;
 
@@ -99,8 +101,8 @@
 
     &__link {
       display: inline-block;
-      font-size: 21px;
-      line-height: 48px;
+      font-size: 16px;
+      line-height: 36px;
       letter-spacing: 0.05em;
       color: var(--color-gray);
       transition: opacity 0.3s, color 0.3s;
@@ -178,8 +180,8 @@
 
   &__logo {
     display: block;
-    width: 88px;
-    height: 88px;
+    width: 77px;
+    height: 77px;
     flex-shrink: 0;
     margin-right: 50px;
     object-fit: cover;
@@ -195,7 +197,7 @@
 
   &__right {
     display: grid;
-    row-gap: 36px;
+    row-gap: 26px;
     grid-template-columns: repeat(2, 1fr);
     color: var(--color-gray);
 
@@ -209,8 +211,8 @@
   &__desc {
     margin: 0;
     max-width: 829px;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 10px;
+    line-height: 12px;
     color: inherit;
     letter-spacing: 0.245em;
     grid-column: 2 span;
@@ -248,8 +250,8 @@
 
     &__link {
       display: inline-block;
-      font-size: 14px;
-      line-height: 17px;
+      font-size: 10px;
+      line-height: 12px;
       color: inherit;
       letter-spacing: 0.245em;
       @include hover;
@@ -265,7 +267,7 @@
       }
 
       &:not(:last-child) {
-        margin-right: 40px;
+        margin-right: 20px;
 
         @media (max-width: 576px) {
           margin-right: 0;
@@ -276,8 +278,8 @@
 
   &__copy {
     text-transform: uppercase;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 10px;
+    line-height: 12px;
     color: inherit;
     letter-spacing: 0.245em;
 

@@ -31,7 +31,7 @@
       left: 5px;
       width: 42px;
       height: 3px;
-      transform: translate(-5px, -14px) rotate(-45deg);
+      transform: translate(0) rotate(0);
       background-color: #fff;
       transition: transform 0.15s ease, background-color 0.3s;
 
@@ -47,7 +47,7 @@
       left: 5px;
       width: 42px;
       height: 3px;
-      transform: translate(-5px, 14px) rotate(45deg);
+      transform: translate(0) rotate(0);
       background-color: #fff;
       transition: transform 0.15s ease, background-color 0.3s;
 
@@ -61,11 +61,11 @@
       &:not(.swiper-button-disabled) {
         &:hover {
           &:after {
-            transform: translate(-5px, -10px) rotate(-30deg);
+            transform: translate(-5px, -14px) rotate(-45deg);
           }
 
           &:before {
-            transform: translate(-5px, 10px) rotate(30deg);
+            transform: translate(-5px, 14px) rotate(45deg);
           }
         }
       }
