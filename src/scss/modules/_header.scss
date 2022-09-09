@@ -5,6 +5,12 @@
   width: 100%;
   z-index: 100;
   min-width: var(--min-width);
+  transition: opacity 0.3s, visibility 0.3s;
+
+  &--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
 
   &__container {
     display: flex;
