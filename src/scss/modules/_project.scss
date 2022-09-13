@@ -9,7 +9,7 @@
     }
 
     &__left {
-      padding: 70px 50px;
+      padding: 60px 50px;
       padding-left: 30px;
       display: flex;
       flex-direction: column;
@@ -53,7 +53,7 @@
       line-height: 36px;
       max-width: 727px;
       letter-spacing: 0.05em;
-      margin-bottom: 83px;
+      margin-bottom: 50px;
       transition: color 0.3s;
 
       @media (max-width: 576px) {
@@ -69,6 +69,7 @@
       display: block;
       width: 47%;
       flex-shrink: 0;
+      height: 100vh;
 
       @media (max-width: 1024px) {
         width: 100%;
@@ -87,7 +88,7 @@
   &-info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 81px;
+    margin-bottom: 60px;
 
     @media (max-width: 576px) {
       flex-direction: column;

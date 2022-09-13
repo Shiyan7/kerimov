@@ -14,7 +14,7 @@
   }
 
   &__title {
-    margin-bottom: 85px;
+    margin-bottom: 60px;
 
     @media (max-width: 576px) {
       text-align: center;
@@ -25,7 +25,7 @@
   &-slider {
 
     &:not(:last-child) {
-      margin-bottom: 70px;
+      margin-bottom: 40px;
 
       @media (max-width: 576px) {
         margin-bottom: 60px;
@@ -57,7 +57,7 @@
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: var(--color-gray);
-      margin-bottom: 40px;
+      margin-bottom: 24px;
       transition: color 0.3s;
 
       @media (max-width: 576px) {

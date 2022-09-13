@@ -1,8 +1,8 @@
 .team {
 
   &__container {
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@
   }
 
   &__title {
-    margin-bottom: 93px;
+    margin-bottom: 40px;
 
     @media (max-width: 768px) {
       margin-bottom: 60px;
