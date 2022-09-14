@@ -6,7 +6,7 @@
     padding-bottom: 50px;
     overflow: hidden;
 
-    @media (max-width: 1200px) {
+    @media (max-height: 1000px) {
       height: auto;
     }
 
@@ -37,7 +37,7 @@
     transform: translateY(-50px);
 
     @media (max-width: 1200px) {
-      transform: translateY(0px);
+      transform: translateY(0);
       width: 100%;
     }
 
