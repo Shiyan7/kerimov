@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       rows: 2
     },
     slidesPerView: 1,
-    spaceBetween: 40,
+    spaceBetween: 30,
     navigation: {
       prevEl: '.team-slider__btn--prev',
       nextEl: '.team-slider__btn--next',

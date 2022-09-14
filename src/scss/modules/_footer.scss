@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  z-index: 1123123;
+  z-index: 300;
   background-color: var(--color-white);
   transition: background-color 0.3s;
 
@@ -9,12 +9,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 68px;
-    min-height: inherit;
+    min-height: var(--vh, 100vh);
 
     @media (max-width: 576px) {
-      padding-top: 60px;
+      padding-top: 50px;
       padding-bottom: 16px;
     }
   }
@@ -57,7 +57,7 @@
     margin-bottom: 132px;
 
     @media (max-width: 576px) {
-      margin-bottom: 75px;
+      margin-bottom: 70px;
     }
   }
 
