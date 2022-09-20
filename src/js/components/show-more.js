@@ -1,10 +1,8 @@
 import $ from 'jquery'
-import Fullpage from 'fullpage.js'
+import {fullpage} from './fullpage'
 
 document.addEventListener('DOMContentLoaded', () => {
   const showMoreWrappers = document.querySelectorAll('[data-show-more]');
-
-  const fullpage = new Fullpage('#fullpage')
 
   showMoreWrappers?.forEach(el => {
     const btn = el.querySelector('[data-show-button]');
