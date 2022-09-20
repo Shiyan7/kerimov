@@ -1,7 +1,10 @@
 import $ from 'jquery'
+import Fullpage from 'fullpage.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   const showMoreWrappers = document.querySelectorAll('[data-show-more]');
+
+  const fullpage = new Fullpage('#fullpage')
 
   showMoreWrappers?.forEach(el => {
     const btn = el.querySelector('[data-show-button]');
@@ -16,9 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
       btn?.classList.toggle('active')
 
       if(content.classList.contains('active')) {
-        wrapper.slideDown(300)
+        wrapper.slideDown(300);
+        fullpage.reBuild()
       } else {
         wrapper.slideUp(300)
+        fullpage.reBuild()
       }
     })
   })
