@@ -51,6 +51,7 @@
     margin: 0 auto 30px;
     line-height: 44.63px;
     text-align: center;
+    transition: font-size 0.3s, line-height 0.3s;
 
     &.active {
       margin-bottom: 80px;
@@ -134,10 +135,8 @@
   }
 
   &__cols {
-    display: none;
-    transform: scale(0);
+    display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
     margin: 0 auto 60px;
 
     @media (max-width: 1024px) {
@@ -146,11 +145,6 @@
 
     @media (max-width: 576px) {
       margin-bottom: 30px;
-    }
-
-    &.active {
-      display: flex;
-      animation: .2s linear 0s forwards show;
     }
   }
 
@@ -261,11 +255,5 @@
       font-size: 16px;
       line-height: 27.63px;
     }
-  }
-}
-
-@keyframes show {
-  to {
-    transform: scale(1);
   }
 }
