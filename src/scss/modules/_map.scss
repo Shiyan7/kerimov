@@ -97,7 +97,6 @@
     &:hover {
       .map-point__content {
         opacity: 1;
-        animation: shake 500ms ease-in-out forwards;
         visibility: visible;
       }
     }
@@ -107,7 +106,7 @@
       z-index: 2;
       opacity: 0;
       visibility: hidden;
-      transition: opacity 0.3s, visibility 0.3s;
+      transition: opacity 0.5s, visibility 0.5s;
 
       &.bottom-right {
         right: 20px;
@@ -212,20 +211,4 @@
 
 .dark-mode .map__image svg {
   fill: #676767;
-}
-
-@keyframes shake {
-  0% {
-    transform: rotate(2deg);
-  }
-  50% {
-   transform: rotate(-3deg);
-  }
-  70% {
-    transform: rotate(3deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
 }
