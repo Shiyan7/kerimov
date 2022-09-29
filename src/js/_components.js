@@ -1,3 +1,5 @@
+import './components/view-mode'
+import './components/tabs'
 import './components/hero-slider'
 import './components/theme'
 import './components/awards-slider'
