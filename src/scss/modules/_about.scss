@@ -4,6 +4,13 @@
 
 .about-text {
 
+  &.section--active {
+    .about-text__container {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+  }
+
   &--desktop {
     @media (max-width: 1024px) {
       display: none;
@@ -26,6 +33,7 @@
     min-height: inherit;
     padding-top: 80px;
     padding-bottom: 80px;
+    transition: padding 0.3s;
 
     @media (max-width: 1024px) {
       padding-top: 0;
@@ -38,6 +46,10 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 50px;
+
+    @media (max-height: 1200px) {
+      margin-bottom: 20px;
+    }
 
     @media (max-width: 1024px) {
       min-height: var(--vh, 100vh);
@@ -55,6 +67,10 @@
 
     &.active {
       margin-bottom: 80px;
+
+      @media (max-height: 1200px) {
+        margin-bottom: 40px;
+      }
 
       @media (max-width: 576px) {
         margin-bottom: 30px;
@@ -139,6 +155,10 @@
     justify-content: space-between;
     margin: 0 auto 60px;
 
+    @media (max-height: 1200px) {
+      margin-bottom: 30px;
+    }
+
     @media (max-width: 1024px) {
       flex-direction: column;
     }
@@ -172,6 +192,10 @@
       letter-spacing: 0.145em;
       color: var(--color-gray);
       transition: color 0.3s;
+
+      @media (max-height: 1200px) {
+        line-height: 24px;
+      }
 
       @media (max-width: 576px) {
         font-size: 12px;
@@ -228,6 +252,10 @@
 
   &__title {
     margin-bottom: 24px;
+
+    @media (max-height: 1200px) {
+      margin-bottom: 20px;
+    }
 
     @media (max-width: 576px) {
       font-size: 20px;

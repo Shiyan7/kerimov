@@ -9,10 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const content = el.querySelector('[data-show-content]')
     const wrapper = $('.about-text__wrapper')
     const title = el.querySelector('[data-show-title]')
+    const section = document.querySelector('.about-text')
 
     btn?.addEventListener('click', () => {
 
       title?.classList.toggle('active')
+      section?.classList.toggle('section--active')
       content?.classList.toggle('active')
       btn?.classList.toggle('active')
 

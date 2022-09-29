@@ -22,11 +22,19 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   })
 
-  current?.addEventListener('click', e => {
-    const self = e.currentTarget;
+  document.addEventListener('click', e => {
+    if(e.target.closest(".projects-tabs__current")) {
+      current.classList.toggle('active');
 
-    self.classList.toggle('active');
+      tabs.classList.toggle('active')
+    } else if(e.target.classList.contains('projects-tabs')) {
+      current.classList.add('active');
 
-    tabs.classList.toggle('active')
+      tabs.classList.add('active')
+    } else {
+      current.classList.remove('active');
+
+      tabs.classList.remove('active')
+    }
   })
 })
