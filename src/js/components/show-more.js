@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if(content.classList.contains('active')) {
         wrapper.slideDown(300);
-        fullpage.reBuild()
+        fullpage.reBuild();
       } else {
         wrapper.slideUp(300)
-        fullpage.reBuild()
+        fullpage.reBuild();
       }
     })
   })

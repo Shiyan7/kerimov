@@ -33,6 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   })
 
+  // window.addEventListener('scroll', () => {
+  //   imageItems.forEach(el => el.classList.remove('active'))
+  // })
+
   body.addEventListener("mouseeneter", () => {
     images.cssText = ''
   })

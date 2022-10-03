@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const section = document.querySelector('.projects')
   let isGridState = false;
 
-  btn.addEventListener('click', e => {
+  btn?.addEventListener('click', e => {
 
     const self = e.currentTarget;
 
