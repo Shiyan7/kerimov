@@ -1,4 +1,5 @@
 import './components/view-mode'
+import './components/sort'
 import './components/tabs'
 import './components/hero-slider'
 import './components/theme'

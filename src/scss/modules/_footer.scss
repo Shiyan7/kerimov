@@ -4,6 +4,12 @@
   background-color: var(--color-white);
   transition: background-color 0.3s;
 
+  &--2 {
+    .footer__container {
+      min-height: auto;
+    }
+  }
+
   &__container {
     position: relative;
     display: flex;

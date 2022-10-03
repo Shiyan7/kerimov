@@ -110,25 +110,17 @@
   }
 }
 
-.dark-mode {
-
+html:not(.dark-mode) {
   .header--static {
-    .header__logo,
     .header__link,
     .nav__link,
     .g-social__link {
-      filter: invert(0);
+      color: var(--color-gray);
     }
-  }
-}
 
-.header--static {
-  .header__logo,
-  .header__link,
-  .nav__link,
-  .g-social__link {
-    filter: invert(1);
-    transition: filter 0.3s;
+    .header__logo {
+      filter: invert(1);
+    }
   }
 }
 
@@ -145,7 +137,7 @@
 .header--static {
   .g-burger {
     span {
-      background-color: #000;
+      background-color: #3d3b38;
     }
   }
 }
