@@ -176,11 +176,13 @@
     text-transform: uppercase;
     transition: color 0.3s;
     @include hover;
+    min-width: 92px;
 
     @media (max-width: 576px) {
       font-size: 10px;
       line-height: 12px;
       height: auto;
+      min-width: auto;
     }
   }
 
@@ -195,6 +197,7 @@
     height: 22px;
     color: var(--color-gray);
     transition: color 0.3s;
+    min-width: 140px;
 
     @media (max-width: 1024px) {
       margin-left: 0;
