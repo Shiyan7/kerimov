@@ -2,11 +2,8 @@
   min-height: var(--vh, 100vh);
 
   &__container {
-    padding-top: 30px;
+    padding-top: 67px;
     padding-bottom: 45px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     min-height: inherit;
 
     @media (max-width: 1366px) {
