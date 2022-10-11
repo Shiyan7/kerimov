@@ -36,7 +36,7 @@
       transition: transform 0.15s ease, background-color 0.3s;
 
       @media (max-width: 576px) {
-        transform: translate(-5px, -7.5px) rotate(-45deg);
+        // transform: translate(-5px, -7.5px) rotate(-45deg);
         width: 24px;
       }
     }
@@ -52,20 +52,28 @@
       transition: transform 0.15s ease, background-color 0.3s;
 
       @media (max-width: 576px) {
-        transform: translate(-5px, 7.5px) rotate(45deg);
+        // transform: translate(-5px, 7.5px) rotate(45deg);
         width: 24px;
       }
     }
 
-    @media (min-width: 577px) {
-      &:not(.swiper-button-disabled) {
-        &:hover {
-          &:after {
-            transform: translate(-5px, -14px) rotate(-45deg);
-          }
+    &:not(.swiper-button-disabled) {
+      &:hover {
+        &:after {
+          transform: translate(-5px, -14px) rotate(-45deg);
 
-          &:before {
-            transform: translate(-5px, 14px) rotate(45deg);
+          @media (max-width: 576px) {
+            transform: translate(-5px, -7.5px) rotate(-45deg);
+            width: 24px;
+          }
+        }
+
+        &:before {
+          transform: translate(-5px, 14px) rotate(45deg);
+
+          @media (max-width: 576px) {
+            transform: translate(-5px, 7.5px) rotate(45deg);
+            width: 24px;
           }
         }
       }

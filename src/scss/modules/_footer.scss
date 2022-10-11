@@ -23,6 +23,10 @@
       padding-top: 50px;
       padding-bottom: 16px;
     }
+
+    @media (max-width: 576px) and (max-height: 800px) {
+      padding-top: 30px;
+    }
   }
 
   &__scroll-top {
@@ -65,6 +69,10 @@
     @media (max-width: 576px) {
       margin-bottom: 70px;
     }
+
+    @media (max-width: 576px) and (max-height: 800px) {
+      margin-bottom: 45px;
+    }
   }
 
   &__items {
@@ -85,6 +93,14 @@
       row-gap: 35px;
       grid-template-columns: 1fr;
       padding-bottom: 110px;
+    }
+
+    @media (max-width: 576px) and (max-height: 800px) {
+      padding-bottom: 60px;
+    }
+
+    @media (max-width: 576px) and (max-height: 700px) {
+      padding-bottom: 20px;
     }
   }
 

@@ -114,6 +114,10 @@
         height: 260px;
         margin-bottom: 25px;
       }
+
+      @media (max-width: 576px) and (max-height: 850px) {
+        height: 208px;
+      }
     }
 
     &__name {

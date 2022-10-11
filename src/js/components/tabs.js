@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       tabs.classList.add('active')
     } else {
-      current.classList.remove('active');
+      current?.classList.remove('active');
 
-      tabs.classList.remove('active')
+      tabs?.classList.remove('active')
     }
   })
 })
