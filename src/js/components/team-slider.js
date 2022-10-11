@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       rows: 2
     },
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 10,
     navigation: {
       prevEl: '.team-slider__btn--prev',
       nextEl: '.team-slider__btn--next',
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     breakpoints: {
       577: {
         slidesPerView: 2,
-        spaceBetween: 30,
+        spaceBetween: 25,
         grid: {
           rows: 1,
         }
